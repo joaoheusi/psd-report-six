@@ -6,7 +6,8 @@ ENTITY mux3_1x16bit IS
     i_A : IN STD_LOGIC_VECTOR(15 DOWNTO 0); -- data input
     i_B : IN STD_LOGIC_VECTOR(15 DOWNTO 0); -- data input
     i_C : IN STD_LOGIC_VECTOR(15 DOWNTO 0); -- data input
-    o_S : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)); -- data output
+    o_S : OUT STD_LOGIC_VECTOR(15 DOWNTO 0) -- data output
+  );
 END mux3_1x16bit;
 
 ARCHITECTURE arch_1 OF mux3_1x16bit IS
